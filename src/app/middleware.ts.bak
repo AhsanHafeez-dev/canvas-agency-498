@@ -1,0 +1,11 @@
+import NextAuth from "next-auth";
+import { authConfig } from "@/auth.config";
+
+// Use the lightweight Edge-compatible config (no Prisma adapter)
+export default NextAuth(authConfig).auth;
+
+export const config = {
+    matcher: [
+        '/((?!api|_next/static|_next/image|favicon.ico).*)',
+    ],
+};
