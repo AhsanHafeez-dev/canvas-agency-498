@@ -1,11 +1,16 @@
 {
+<<<<<<< HEAD
   "name": "dry-fruit-store",
+=======
+  "name": "cmoyarr260004gnycs79oik8d",
+>>>>>>> 35f3fc681e52f03e17fb21d393ec7c1fc23b16a7
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+<<<<<<< HEAD
     "lint": "eslint",
     "seed": "tsx prisma/seed.ts"
   },
@@ -22,13 +27,30 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+=======
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.5.0",
+    "next": "^16.2.6",
+    "postcss": "^8.5.14",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+>>>>>>> 35f3fc681e52f03e17fb21d393ec7c1fc23b16a7
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
+<<<<<<< HEAD
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
     "ts-node": "^10.9.1",
+=======
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^3.4.19",
+>>>>>>> 35f3fc681e52f03e17fb21d393ec7c1fc23b16a7
     "typescript": "^5"
   }
 }
